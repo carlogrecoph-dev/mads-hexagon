@@ -1,27 +1,15 @@
-# M.A.D.S. Hexagon — cartella per Aruba
+# Hexagon per Aruba (sottocartella)
 
-Sito statico. Si mette **come sottocartella** nel tuo spazio web, senza toccare il sito già online.
+Hai già: `https://www.madsverse.com/NuovaCartella/hexagon-aruba/`
 
-## Aruba
+Quella copia è **vecchia**: i file 3D venivano cercati in `madsverse.com/models/` invece che nella sottocartella.
 
-1. Scarica lo ZIP: pulsante verde **Code → Download ZIP**
-2. Estrai e rinomina la cartella in `hexagon`
-3. Caricala **dentro** `public_html`
+## Come aggiornare
 
-Deve risultare:
+1. Code → Download ZIP
+2. Estrai
+3. **Svuota** `public_html/NuovaCartella/hexagon-aruba/` (cancella i file vecchi)
+4. Carica DENTRO quella cartella: index.html, assets, models, textures, brand, samples, .htaccess, sw.js
+5. Ricarica: https://www.madsverse.com/NuovaCartella/hexagon-aruba/
 
-```
-public_html/
-  (il tuo sito attuale)
-  hexagon/
-    index.html
-    .htaccess
-    assets/
-    models/
-```
-
-4. Apri `https://tuodominio.it/hexagon/`
-
-PWA: dallo smartphone, su quel link → Aggiungi a Home. Poi funziona offline.
-
-Non cancellare `models/female.vrm`.
+Deve esserci `hexagon-aruba/index.html` (non un’altra cartella in mezzo).

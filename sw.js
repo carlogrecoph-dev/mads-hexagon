@@ -3,10 +3,10 @@ const CACHE = "mads-hexagon-v2";
 const FILES = [
   "404.html",
   "assets/GLTFLoader-CkUDLmR8.js",
-  "assets/StudioCanvas-DogiDvqw.js",
+  "assets/StudioCanvas-B4Ks1GeR.js",
+  "assets/index-B4ZLt2qY.js",
   "assets/index-BCgZIrOL.css",
-  "assets/index-BRE7pVJT.js",
-  "assets/three-vrm.module-g182cHDr.js",
+  "assets/three-vrm.module-DdLZcX3V.js",
   "assets/three.core-DtjtRha-.js",
   "brand/floor-marble.jpg",
   "brand/hoodie-logo.jpg",
