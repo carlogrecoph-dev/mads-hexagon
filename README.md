@@ -1,23 +1,27 @@
-# M.A.D.S. Hexagon Teaser
+# M.A.D.S. Hexagon — cartella per Aruba
 
-Sito statico. Non serve Node, non serve PHP.
+Sito statico. Si mette **come sottocartella** nel tuo spazio web, senza toccare il sito già online.
 
-## Modo più semplice (consigliato)
+## Aruba
 
-1. Su GitHub: pulsante verde **Code** → **Download ZIP**
-2. Estrai lo zip
-3. Aruba File Manager / FileZilla → cartella `public_html`
-4. Carica **tutto il contenuto** dentro `public_html`
-5. Deve esserci `public_html/index.html`
-6. Apri il tuo dominio
+1. Scarica lo ZIP: pulsante verde **Code → Download ZIP**
+2. Estrai e rinomina la cartella in `hexagon`
+3. Caricala **dentro** `public_html`
 
-## Ancora più semplice: GitHub Pages (gratis, niente Aruba)
+Deve risultare:
 
-1. In questo repository: **Settings** → **Pages**
-2. Source: **Deploy from a branch**
-3. Branch: **main** / cartella **/ (root)**
-4. Save
-5. Dopo un minuto il sito è su:
-   https://carlogrecoph-dev.github.io/mads-hexagon/
+```
+public_html/
+  (il tuo sito attuale)
+  hexagon/
+    index.html
+    .htaccess
+    assets/
+    models/
+```
 
-Il file `models/female.vrm` è pesante: deve essere caricato per intero, altrimenti manca il personaggio.
+4. Apri `https://tuodominio.it/hexagon/`
+
+PWA: dallo smartphone, su quel link → Aggiungi a Home. Poi funziona offline.
+
+Non cancellare `models/female.vrm`.

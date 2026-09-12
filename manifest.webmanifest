@@ -1,41 +1,25 @@
 {
-  "id": "/",
   "name": "M.A.D.S. Hexagon Teaser",
   "short_name": "Hexagon",
   "description": "Genera teaser cinematografici 9:16 dell'installazione M.A.D.S. Hexagon.",
   "lang": "it",
-  "dir": "ltr",
-  "start_url": "/?source=pwa",
-  "scope": "/",
+  "start_url": "./index.html",
+  "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
-  "orientation": "any",
   "background_color": "#070708",
   "theme_color": "#070708",
-  "categories": ["photo", "productivity"],
   "icons": [
     {
-      "src": "/icon-192.png",
+      "src": "./icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icon-512.png",
+      "src": "./icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    },
-    {
-      "src": "/__grok/icon-180.png",
-      "sizes": "180x180",
-      "type": "image/png"
+      "purpose": "any maskable"
     }
   ]
 }

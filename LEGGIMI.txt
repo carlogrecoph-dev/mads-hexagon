@@ -1,26 +1,29 @@
-M.A.D.S. HEXAGON — app offline
-==============================
+M.A.D.S. HEXAGON — cartella per Aruba
+====================================
 
-INVIA QUESTO ZIP a chi deve usarlo.
+1. Estrai questo zip. Ottieni la cartella  hexagon
+2. Con FileZilla / File Manager Aruba apri  public_html
+3. Carica TUTTA la cartella  hexagon  DENTRO public_html
+   (non mescolare i file con il sito già esistente)
 
-MAC
-1. Estrai lo zip
-2. Doppio clic su Apri-Hexagon.command
-   (se il Mac blocca: tasto destro → Apri)
-3. Nel browser: File → Aggiungi al Dock  (Safari)
-   oppure l’icona Installa (Chrome)
-4. Dalla volta dopo: apri l’icona Hexagon. Funziona anche senza internet.
+Deve risultare così:
 
-IPHONE / IPAD
-Lo zip da solo non si installa sul telefono (Apple lo vieta).
-Due modi:
- A) Qualcuno apre Hexagon sul Mac, iPhone sulla stessa Wi-Fi
-    Safari → http://INDIRIZZO-DEL-MAC:8765 → Condividi → Aggiungi a Home
- B) Metti questi file online (GitHub Pages o Aruba public_html)
-    poi sul telefono apri il link → Aggiungi a Home
-    Da quel momento l’app è offline.
+  public_html/
+    (il tuo sito attuale, non toccarlo)
+    hexagon/
+      index.html
+      .htaccess
+      assets/
+      models/
+      ...
 
-ANDROID
-Come iPhone: apri il sito in Chrome → Installa app.
+4. Apri:  https://TUODOMINIO.it/hexagon/
 
-Il personaggio 3D sta in models/female.vrm: non cancellarlo.
+PWA / telefono
+Apri quel link sul cellulare → Condividi / menu Chrome → Aggiungi a Home.
+Dopo la prima volta con internet, l’app resta offline.
+
+Mac in locale (senza Aruba)
+Doppio clic su Apri-Hexagon.command
+
+Non cancellare models/female.vrm
