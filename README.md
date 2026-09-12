@@ -1,15 +1,13 @@
-# Hexagon per Aruba (sottocartella)
+# Hexagon per Aruba
 
-Hai già: `https://www.madsverse.com/NuovaCartella/hexagon-aruba/`
+La cartella NON deve avere spazi nel nome.
 
-Quella copia è **vecchia**: i file 3D venivano cercati in `madsverse.com/models/` invece che nella sottocartella.
-
-## Come aggiornare
+Sbagliato: `mads-hexagon-main 2`
+Giusto: `hexagon`
 
 1. Code → Download ZIP
-2. Estrai
-3. **Svuota** `public_html/NuovaCartella/hexagon-aruba/` (cancella i file vecchi)
-4. Carica DENTRO quella cartella: index.html, assets, models, textures, brand, samples, .htaccess, sw.js
-5. Ricarica: https://www.madsverse.com/NuovaCartella/hexagon-aruba/
+2. Estrai, rinomina la cartella in **hexagon**
+3. Caricala in `public_html`
+4. Apri https://www.madsverse.com/hexagon/
 
-Deve esserci `hexagon-aruba/index.html` (non un’altra cartella in mezzo).
+Se hai già `mads-hexagon-main 2`, rinominala in `hexagon` **e sostituisci i file** con questa versione (il CSS della precedente era incompleto).

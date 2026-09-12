@@ -13,7 +13,14 @@
         var p = location.pathname;
         if (/\.[a-z0-9]+$/i.test(p)) p = p.replace(/\/[^/]+$/, "/");
         else if (p.slice(-1) !== "/") p += "/";
-        window.__HEX_BASE__ = location.origin + p;
+        window.__HEX_BASE__ =
+          location.origin +
+          p
+            .split("/")
+            .map(function (s) {
+              return encodeURIComponent(s);
+            })
+            .join("/");
       })();
     </script>
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
@@ -24,8 +31,8 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@200;300;400;500;600;700&display=swap"
     />
-    <script type="module" crossorigin src="./assets/index-B4ZLt2qY.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BCgZIrOL.css">
+    <script type="module" crossorigin src="./assets/index-HSXacHo-.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-C_RuzhWZ.css">
   </head>
   <body class="bg-background text-foreground">
     <div id="root"></div>
