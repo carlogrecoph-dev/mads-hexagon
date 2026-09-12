@@ -1,0 +1,10 @@
+{
+  "name": "M.A.D.S. Hexagon Teaser",
+  "short_name": "Hexagon",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#070708",
+  "theme_color": "#070708",
+  "icons": [{ "src": "./favicon.svg", "sizes": "any", "type": "image/svg+xml" }]
+}
