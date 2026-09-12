@@ -1,0 +1,19 @@
+M.A.D.S. HEXAGON — caricamento su Aruba
+======================================
+
+1. Estrai questo zip sul computer.
+2. Entra in Aruba → Gestione hosting → File Manager
+   oppure FileZilla (FTP).
+3. Apri la cartella public_html  (a volte www o httpdocs).
+4. Carica TUTTO il contenuto di questa cartella DENTRO public_html
+   (index.html deve stare in public_html/index.html, non in una sottocartella).
+5. Attendi il termine dell'upload (il file models/female.vrm è pesante).
+6. Apri il tuo dominio: https://tuodominio.it
+
+Se vedi una lista di file invece dell'app, sposta index.html nella root
+di public_html.
+
+Non serve PHP né Node. È un sito statico.
+
+Se il personaggio 3D non compare: verifica che models/female.vrm
+sia stato caricato per intero.
